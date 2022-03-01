@@ -156,7 +156,6 @@ class ActualScript : public V8DebuggerScript {
 #endif  // V8_ENABLE_WEBASSEMBLY
     return 0;
   }
-  bool isSourceLoadedLazily() const override { return false; }
   int length() const override {
     auto script = this->script();
 #if V8_ENABLE_WEBASSEMBLY
@@ -255,9 +254,9 @@ class ActualScript : public V8DebuggerScript {
                                    id);
   }
 
-  bool setBreakpointOnRun(int* id) const override {
+  bool setInstrumentationBreakpoint(int* id) const override {
     v8::HandleScope scope(m_isolate);
-    return script()->SetBreakpointOnScriptEntry(id);
+    return script()->SetInstrumentationBreakpoint(id);
   }
 
   const String16& hash() const override {

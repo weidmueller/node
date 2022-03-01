@@ -121,7 +121,7 @@ const RegList kCalleeSavedFPU = 1 << 8 |   // fs0
                                 1 << 26 |  // fs10
                                 1 << 27;   // fs11
 
-const int kNumCalleeSavedFPU = 12;
+const int kNumCalleeSavedFPU = NumRegs(kCalleeSavedFPU);
 
 const RegList kCallerSavedFPU = 1 << 0 |   // ft0
                                 1 << 1 |   // ft1
@@ -143,6 +143,8 @@ const RegList kCallerSavedFPU = 1 << 0 |   // ft0
                                 1 << 29 |  // ft9
                                 1 << 30 |  // ft10
                                 1 << 31;   // ft11
+
+const int kNumCallerSavedFPU = NumRegs(kCallerSavedFPU);
 
 // Number of registers for which space is reserved in safepoints. Must be a
 // multiple of 8.
@@ -379,8 +381,8 @@ constexpr Register kWasmInstanceRegister = a0;
 constexpr Register kWasmCompileLazyFuncIndexRegister = t0;
 
 constexpr DoubleRegister kFPReturnRegister0 = fa0;
-constexpr VRegister kSimd128ScratchReg = v26;
-constexpr VRegister kSimd128ScratchReg2 = v27;
+constexpr VRegister kSimd128ScratchReg = v24;
+constexpr VRegister kSimd128ScratchReg2 = v23;
 constexpr VRegister kSimd128ScratchReg3 = v8;
 constexpr VRegister kSimd128RegZero = v25;
 
