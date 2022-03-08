@@ -1604,7 +1604,7 @@ concurrent modifications on the same file or data corruption may occur.
 <!-- YAML
 added: v0.11.15
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -1794,7 +1794,7 @@ the user from reading or writing to it.
 <!-- YAML
 added: v0.6.7
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -1880,7 +1880,7 @@ open('message.txt', 'a', (err, fd) => {
 <!-- YAML
 added: v0.1.30
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -1973,7 +1973,7 @@ implemented.
 <!-- YAML
 added: v0.1.97
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2008,7 +2008,7 @@ See the POSIX chown(2) documentation for more detail.
 <!-- YAML
 added: v0.0.2
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2045,7 +2045,7 @@ See the POSIX close(2) documentation for more detail.
 <!-- YAML
 added: v8.5.0
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2101,7 +2101,7 @@ copyFile('source.txt', 'destination.txt', constants.COPYFILE_EXCL, callback);
 <!-- YAML
 added: v16.7.0
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2356,7 +2356,7 @@ If `options` is a string, then it specifies the encoding.
 added: v0.0.2
 deprecated: v1.0.0
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2506,7 +2506,7 @@ process.
 <!-- YAML
 added: v0.4.7
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2536,7 +2536,7 @@ See the POSIX fchmod(2) documentation for more detail.
 <!-- YAML
 added: v0.4.7
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2567,7 +2567,7 @@ See the POSIX fchown(2) documentation for more detail.
 <!-- YAML
 added: v0.1.96
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2596,7 +2596,7 @@ exception are given to the completion callback.
 <!-- YAML
 added: v0.1.95
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2632,7 +2632,7 @@ See the POSIX fstat(2) documentation for more detail.
 <!-- YAML
 added: v0.1.96
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2661,7 +2661,7 @@ than a possible exception are given to the completion callback.
 <!-- YAML
 added: v0.8.6
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2726,7 +2726,7 @@ If `len` is negative then `0` will be used.
 <!-- YAML
 added: v0.4.2
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2759,7 +2759,7 @@ descriptor. See [`fs.utimes()`][].
 <!-- YAML
 deprecated: v0.4.7
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2794,7 +2794,7 @@ See the POSIX lchmod(2) documentation for more detail.
 
 <!-- YAML
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2832,7 +2832,7 @@ added:
   - v14.5.0
   - v12.19.0
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2858,7 +2858,7 @@ callback.
 <!-- YAML
 added: v0.1.31
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2892,7 +2892,7 @@ exception are given to the completion callback.
 <!-- YAML
 added: v0.1.30
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -2935,7 +2935,7 @@ See the POSIX lstat(2) documentation for more details.
 <!-- YAML
 added: v0.1.8
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -3011,7 +3011,7 @@ See the POSIX mkdir(2) documentation for more details.
 <!-- YAML
 added: v5.10.0
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -3103,7 +3103,7 @@ mkdtemp(`${tmpDir}${sep}`, (err, directory) => {
 <!-- YAML
 added: v0.0.2
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -3149,7 +3149,7 @@ Functions based on `fs.open()` exhibit this behavior as well:
 <!-- YAML
 added: v12.12.0
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -3185,7 +3185,7 @@ directory and subsequent read operations.
 <!-- YAML
 added: v0.0.2
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -3261,7 +3261,7 @@ above values.
 <!-- YAML
 added: v0.1.8
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -3313,7 +3313,7 @@ If `options.withFileTypes` is set to `true`, the `files` array will contain
 <!-- YAML
 added: v0.1.29
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -3459,7 +3459,7 @@ different Node.js versions.
 <!-- YAML
 added: v0.1.31
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -3502,7 +3502,7 @@ added:
   - v13.13.0
   - v12.17.0
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -3535,7 +3535,7 @@ a promise for an `Object` with `bytesRead` and `buffers` properties.
 <!-- YAML
 added: v0.1.31
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -3602,7 +3602,7 @@ dependent name for that object.
 <!-- YAML
 added: v9.2.0
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -3636,7 +3636,7 @@ this restriction.
 <!-- YAML
 added: v0.0.2
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -3683,7 +3683,7 @@ rename('oldFile.txt', 'newFile.txt', (err) => {
 <!-- YAML
 added: v0.0.2
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -3796,7 +3796,7 @@ completion callback.
 <!-- YAML
 added: v0.0.2
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -3915,7 +3915,7 @@ Stats {
 <!-- YAML
 added: v0.1.31
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -3972,7 +3972,7 @@ $ tree .
 <!-- YAML
 added: v0.8.6
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -4028,7 +4028,7 @@ See the POSIX truncate(2) documentation for more details.
 <!-- YAML
 added: v0.0.2
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -4094,7 +4094,7 @@ and `fs.unwatchFile()` when possible.
 <!-- YAML
 added: v0.4.2
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -4341,7 +4341,7 @@ This happens when:
 <!-- YAML
 added: v0.0.2
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -4477,7 +4477,7 @@ details.
 <!-- YAML
 added: v0.1.29
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -4627,7 +4627,7 @@ to contain only `', World'`.
 <!-- YAML
 added: v12.9.0
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of
@@ -5882,7 +5882,7 @@ closed.
 <!-- YAML
 added: v12.12.0
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41678
     description: Passing an invalid callback to the `callback` argument
                  now throws `ERR_INVALID_ARG_TYPE` instead of

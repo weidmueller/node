@@ -328,7 +328,7 @@ Use the specified file as a security policy.
 ### `--no-experimental-fetch`
 
 <!-- YAML
-added: REPLACEME
+added: v18.0.0
 -->
 
 Disable experimental support for the [Fetch API][].

@@ -210,7 +210,7 @@ If `abortSignal.aborted` is `true`, throws `abortSignal.reason`.
 ## Class: `Blob`
 
 <!-- YAML
-added: REPLACEME
+added: v18.0.0
 -->
 
 <!-- type=global -->
@@ -250,7 +250,7 @@ Global alias for [`buffer.atob()`][].
 ## `BroadcastChannel`
 
 <!-- YAML
-added: REPLACEME
+added: v18.0.0
 -->
 
 See {BroadcastChannel}.

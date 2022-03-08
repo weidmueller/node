@@ -301,7 +301,7 @@ removed from the array on `'timeout'`.
 <!-- YAML
 added: v0.11.4
 changes:
-  - version: REPLACEME
+  - version: v18.0.0
     pr-url: https://github.com/nodejs/node/pull/41906
     description: The `options` parameter is now optional.
 -->
