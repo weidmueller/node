@@ -146,6 +146,11 @@ void InitCryptoOnce() {
     const char* conf = per_process::cli_options->openssl_config.c_str();
     OPENSSL_INIT_set_config_filename(settings, conf);
   }
+else
+  OSSL_PROVIDER* legacy_provider = OSSL_PROVIDER_load(nullptr, "legacy");
+  if (legacy_provider == nullptr) {
+    fprintf(stderr, "Unable to load legacy provider.\n");
+  }
 #endif
 
   OPENSSL_init_ssl(0, settings);
